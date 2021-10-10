@@ -13,7 +13,7 @@ class Server:
     def __init__(self):
         print("--- SERVER STARTED ---")
         self.sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        self.addresse = '26.52.199.234',25001
+        self.addresse = '25.105.8.223',25001
         self.bound = False
         self.connections = []
         self.simplelogic = simplelogic()
@@ -106,4 +106,4 @@ while True:
     if Server.shutdown:
         print("SHUTDOWN")
         os._exit(2)
-        subprocess.call([r"start.bat"])
+        #subprocess.call([r"start.bat"])

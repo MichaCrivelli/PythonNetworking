@@ -4,7 +4,7 @@ import time
 import threading
 
 #own = socket.gethostbyname(socket.getfqdn()),25001
-server = '62.2.162.113', 1605
+server = '192.168.1.107', 25001
 own = '192.168.1.115', 25000
 
 class Client:

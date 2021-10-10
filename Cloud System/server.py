@@ -54,7 +54,6 @@ def HearConnections():
                 ServerLogic.Main()'''
         time.sleep(1)
 
-
 if __name__=="__main__":
     serverHear = Process(target=HearConnections)
     serverListen = Process(target=main)
